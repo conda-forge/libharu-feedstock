@@ -5,7 +5,7 @@ set -ex
 mkdir -p build
 cd build
 
-cmake $SRC_DIR -G "Ninja" \
+cmake ${CMAKE_ARGS} $SRC_DIR -G "Ninja" \
   -DCMAKE_BUILD_TYPE=Release \
   -DCMAKE_INSTALL_PREFIX=$PREFIX \
   -DCMAKE_LIBRARY_PATH=$PREFIX/lib \
