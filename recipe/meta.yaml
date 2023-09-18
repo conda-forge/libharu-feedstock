@@ -1,4 +1,4 @@
-{% set version = "2.4.3" %}
+{% set version = "2.4.4" %}
 
 package:
   name: libharu
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/libharu/libharu/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: a2c3ae4261504a0fda25b09e7babe5df02b21803dd1308fdf105588f7589d255
+  sha256: 227ab0ae62979ad65c27a9bc36d85aa77794db3375a0a30af18acdf4d871aee6
 
 build:
   number: 0
@@ -35,8 +35,8 @@ about:
   license_family: OTHER
   license_file: LICENSE.txt
   summary: |
-      libharu is a free, cross platform, open source library for generating PDF
-      files.
+    libharu is a free, cross platform, open source library for generating PDF
+    files.
   doc_url: https://github.com/libharu/libharu/wiki
   dev_url: https://github.com/libharu/libharu
 

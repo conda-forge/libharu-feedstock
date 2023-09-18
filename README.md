@@ -1,11 +1,11 @@
-About libharu
-=============
+About libharu-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libharu-feedstock/blob/main/LICENSE.txt)
 
 Home: http://libharu.org/
 
 Package license: Zlib
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/libharu-feedstock/blob/main/LICENSE.txt)
 
 Summary: libharu is a free, cross platform, open source library for generating PDF
 files.
